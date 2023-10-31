@@ -1,6 +1,7 @@
 .main{
     width: 100vw;
     max-width: 100%;
+    background-color: black;
     .upper-part{
         width: 100%;
         height: 90vh;
@@ -27,6 +28,7 @@
                     outline: none;
                     margin-top: 35px;
                     background-color: #4543d9;
+                    color: white;
                     &:hover {
                         background-color: #7172da;
                     }

@@ -4,5 +4,11 @@ export interface Role {
     discription: string;
     highlightText: string;
     slug: string;
+    accordianData: AccordianData[];
+    accordianImageUrl: string;
 }
 
+export interface AccordianData {
+    title: string;
+    summary: string;
+}   

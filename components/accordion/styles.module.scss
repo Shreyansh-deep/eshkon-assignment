@@ -1,0 +1,28 @@
+.accordian-section{
+    display: flex;
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    .section-header{
+        color: black;
+        min-width: 100%;
+        font-size: 60px;
+        padding: 40px 0;
+    }
+    .accordian {
+        flex-grow: 1;
+        max-width: 50%;
+        .accordian-title{
+            font-size: 20px;
+            font-weight: 600;
+            &:hover{
+                color: #4543d9;
+            }
+        }
+    }
+    .image-wrapper{
+        flex-grow: 1;
+        max-width: 50%;
+    }
+}
