@@ -3,5 +3,6 @@ export interface Role {
     name: string;
     discription: string;
     highlightText: string;
+    slug: string;
 }
 
